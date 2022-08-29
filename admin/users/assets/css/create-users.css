@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#whose-form p{
+    font-size: 25px;
+    padding-bottom: 2rem;
+    font-family: sans-serif;
+}
+#content{
+    height: 25rem;
+    width: 21.9rem;
+    padding-left: 70px;
+    padding-top:50px;
+    background-color: white;
+    border-radius: 10px;
+}
+#input-user{
+    margin-top: 10px;
+    width:216px;
+    height: 25px;
+}
+#input-pass{
+    margin-top: 10px;
+    width:216px;
+    height: 25px;
+}
+#login{
+    padding-top: 3px;
+}
+#login-btn{
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(42, 198, 36, 0.804);
+    border: 1px rgba(42, 198, 36, 0.804);
+    height: 25px;
+    width: 216px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+#username{
+    padding-bottom: 12px;
+}
+#password{
+    padding-bottom: 15px;
+}
+#usser{
+    padding-right: 20px;
+}
+#psw{
+    padding-right: 25px;
+}
+label{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: black;
+}
+.information-for-login::placeholder{
+    padding-left: 0.5rem;
+    font-family: sans-serif;
+    border-radius: 1rem;
+}
+#color-letter{
+    color: #25aae1;
+}
+#my-company-logo{
+    text-decoration: none;
+    color: #d1d2d4;
+}
+#sidebar-wrapper{
+    background-color: #3b3e3f;
+}
+.display-table{
+    height: auto;
+    width: fit-content;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+table th{
+    padding: 1rem;
+    border-right: 0.5px solid black;
+}
+table td{
+    padding: 1rem;
+    border-top:0.5px solid black ;
+    border-right: 0.5px solid black;
+}
+table{
+    border: 0.5px solid black;
+    margin-bottom: 2rem;
+}
+.contents{
+    padding: 1rem;
+    margin-left: 3rem;
+}

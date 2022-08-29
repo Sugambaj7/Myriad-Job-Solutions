@@ -1,0 +1,24 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+#profile{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+#profile h3{
+    padding-bottom: 1rem;
+}
+table{
+   border: 2px solid black;
+}
+table tr {
+    border-bottom: 1px solid black;
+}
+table td{
+    padding: 0.5rem;
+    border-left: 2px solid black;
+}
+table th{
+    padding: 0.5rem;
+}

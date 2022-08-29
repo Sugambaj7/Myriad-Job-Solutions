@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#first-div{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    border: 2px solid black;
+    width: fit-content;
+}
+#second-div{
+    width: fit-content;
+    margin: 1rem;
+}
+#second-div table{
+    border: 2px solid black;
+}
+#second-div table th{
+    padding: 0.5rem;
+    border-right: 2px solid black;
+}
+#second-div table tr{
+    border-bottom: 2px solid black;
+}
+#second-div table td{
+    padding: 0.5rem;
+}

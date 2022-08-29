@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.first-div{
+    margin:2rem;
+}
+#interview{
+    margin-top: 1rem;
+}
+#interview table{
+    border: 1px solid black;
+}
+#interview table tr{
+    border-bottom: 1px solid black;
+}
+#interview table td{
+    border-left: 1px solid black;
+    padding: 1rem;
+}
+#interview table th{
+    padding: 1rem;
+}
+.second-div{
+    margin:2rem;
+}
+#interview_details{
+    margin-top: 1rem;
+}
+#interview_details table{
+    border: 1px solid black;
+}
+#interview_details table th{
+    padding: 1rem;
+    border-right: 1px solid black;
+}
+#interview_details table td{
+    padding: 1rem;
+}
+#interview_details table tr{
+    border-bottom: 1px solid black;
+}

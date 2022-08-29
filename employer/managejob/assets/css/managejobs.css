@@ -1,0 +1,56 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+#first-div{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border: 2px solid black;
+    width: fit-content;
+}
+#create-job{
+    margin: 1rem;
+}
+form div{
+    margin-top: 0.3rem;
+}
+form h3{
+    margin-bottom: 1rem;
+}
+#second-div{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem
+}
+table{
+    border: 1px solid black;
+}
+table th{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    padding: 1rem;
+}
+table td{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    padding: 1rem;
+}
+#companyName{
+    margin-left: 1rem;
+}
+#companyEmail{
+    margin-left: 1.3rem;
+}
+#jobTitle{
+    margin-left: 4.5rem;
+}
+#vacancy{
+    margin-left: 2.2rem;
+}
+#qualification{
+    margin-top: 0.3rem;
+    margin-left: 2.54rem;
+}
+#salary{
+    margin-left: 5.48rem;
+}

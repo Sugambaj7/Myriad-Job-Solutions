@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#color-letter{
+    color: #25aae1;
+}
+#my-company-logo{
+    text-decoration: none;
+    color: #d1d2d4;
+}
+#sidebar-wrapper{
+    background-color: #3b3e3f;
+}
+.fa-building{
+    font-size: 2rem;
+}
+#mng-company-table{
+    height: 16rem;
+    width: 32rem;
+}
+#mng-company-table #mydatas{
+    background-color: white;
+    margin-left: 1rem;
+    height: 14rem;
+    border-radius: 0.5rem;
+}
+#mydatas h4{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+table th{
+    padding: 1rem;
+    border-right: 0.5px solid black;
+}
+table td{
+    padding: 1rem;
+    border-top:0.5px solid black ;
+    border-right: 0.5px solid black;
+}
+table{
+    border: 0.5px solid black;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}

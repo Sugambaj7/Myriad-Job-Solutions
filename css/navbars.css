@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact{
+    height: 5.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color:grey;
+}
+.adjustment{
+    height: 5.5vh;
+    width: 10vh;
+    background-color: grey;
+}
+.contact-info{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.contact-info li{
+    color: white;
+    padding: 0rem 0.3rem 0rem 0.3rem;
+}
+#mail{
+    padding-right:4rem;
+}
+#tel{
+    padding-right:4rem;
+}
+nav{
+    height: 45px;
+    width: 100%;
+    background-color: #3b3e3f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+nav img{
+    height: 2.813rem;
+    width:20.625 rem ;
+    display: flex;
+}
+nav .nav{
+    list-style-type: none;
+    display: flex;
+}
+nav .nav li{
+    padding: 0.9rem;
+}
+nav .nav li a{
+    color: rgba(255, 255, 255, 0.705);
+    text-decoration: none;
+}
+.nav li a:hover{
+    color: #fff;
+    transition: all 500ms;
+}
+.my-sub-menu{
+    display: none;
+    color: rgba(255, 255, 255, 0.705);
+    background-color: #3b3e3f;
+    margin-top: 0.8rem;
+    margin-left: -1rem;
+}
+#pop-sub-menu{
+    color: rgba(255, 255, 255, 0.705);
+    width: 10rem;
+}
+#pop-sub-menu:hover .my-sub-menu{
+    display: block;
+}
+.my-sub-menu{
+    width: 10rem;
+}
+.my-sub-menu li{
+    list-style-type: none;
+}
+.my-sub-menu li:hover{
+    color: #fff;
+    background-color: #565656;
+}
+.logandsign{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.logandsign li{
+    padding: 0.7rem;
+}
+.logandsign li a{
+    color: rgba(255, 255, 255, 0.705);
+    text-decoration: none;
+    font-size:1.2rem;
+}
+.logandsign li a:hover{
+    color: #00a651;
+    transition: all 500ms;
+}
+#line{
+    color: white;
+}
+#second-btn a{
+    padding-right: 5rem;
+}
+#second-popup-btn{
+    border: none;
+    font-family: ti;
+}
+#popup-btn{
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.705);
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+#popup-btn:hover{
+    color: #00a651;
+    transition: all 500ms;
+}
+.modal-fade{
+    height: 40vh;
+    width: 100%;
+    position: absolute;
+    display: none;
+}
+.popup{
+    padding-top: 0.5rem;
+    margin-left: 62rem;
+    height: 25vh;
+    width: 45vh;
+    padding-right: 0.5rem;
+}
+.optionss{
+    display: flex;
+    height: 15vh;
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+.popup-buttons{
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    margin-top: 2rem;
+    height: 2rem;
+    width: 8rem;
+}
+
+.popup-buttons a{
+    font-size: 1rem;
+    color: #000;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+.popup-buttons a:hover{
+    color: white;
+    transition: all 500ms;
+}
+#first-popup-btn{
+    margin-left:0.5rem;
+    background-color: #fcce31;
+}
+#second-popup-btn{
+    margin-left: 0.1rem;
+    background-color: #4990a0;
+}
+#second-popups-button{
+    margin-left: 5.8rem;
+    border: none;
+    color: #000;
+    background: none;
+    opacity: .2;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    line-height: 1;
+}
+.popup-content{
+    height: 30vh;
+    background-color: #fff;
+}
+.signup-some-txt{
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.signup-some-txt .fa-solid{
+    font-size: 1.5rem;
+    margin-left: 8rem;
+}
+.signup-some-txt h3{
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    margin-left: 4rem;
+    padding-top: 1rem;
+}
+.signup-some-txt button{
+    margin-left: 6.9rem;
+    color: #000;
+    height: 1rem;
+    cursor: pointer;
+}
+.signup-some-txt div{
+    display: flex;
+}

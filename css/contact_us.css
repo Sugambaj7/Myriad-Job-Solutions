@@ -1,0 +1,106 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+#contact-us-section{
+    height: 41rem;
+    width: 100%;
+    background-color: rgba(193, 193, 193, 0.34);
+}
+#map-section{
+    background-color: white;
+    margin-left: 3rem;
+    height: 20.4rem;
+    border: 3px solid rgba(0,0,0,.125);
+}
+#map-section iframe{
+    border: 1px solid rgba(0,0,0,.125);
+    height: 20rem;
+    width: 45rem;
+    padding: 0.2rem;
+}
+#contact-text{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+#contact-text h3{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    font-weight: 600;
+    color:#505050;
+}
+#contact-form form{
+    background-color: #fff;
+    margin-right: 3rem;
+    padding: 2rem;
+}
+#contact-second-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+#contact-first-detail{
+    display: flex;
+}
+#contact-second-detail{
+    display: flex;
+}
+#contact-third-detail{
+    display: flex;
+}
+#contact-fourth-detail{
+    display: flex;
+}
+#contact-form-title{
+    height: 2rem;
+    width: 21rem;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+#contact-form-title p{
+    font-family: sans-serif;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+#contact-form-icon{
+    border: 1px solid #ced4da;
+    color: #5fcbec;
+    padding: 0.5rem;
+    font-size: 14px;
+    height: 2rem;
+    font-weight: 900;
+}
+.contact-form-details{
+    margin-top: 0.5rem;
+}
+.contact-form-details input{
+    height: 2rem;
+    width: 19rem;
+    padding-left: 2rem;
+    border: 1px solid #ced4da;
+}
+#contact-message{
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    border: none;
+}
+#submit-button input{
+    width: 19rem;
+    margin-left: 2rem;
+    padding: 0.3rem;
+    margin-top: 0.5rem;
+    background-color: #00aeda;
+    border: 1px solid #00aeda;
+    color: white;
+}
+.error_msg{
+    color: red;
+    margin-left:2rem;
+    font-size:15px;
+}
+.error_msg_2{
+    color: red;
+    font-size:15px;
+}

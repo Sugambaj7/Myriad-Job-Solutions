@@ -1,0 +1,126 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+#whose-form p{
+    font-size: 25px;
+    padding-bottom: 2rem;
+    font-family: sans-serif;
+}
+.job-seeker-login{
+    background-color: #3b3e3f;
+    height: 35rem;
+    width: 100%;
+}
+#main-div{
+    margin-left:30rem;
+    padding-top: 5rem;
+}
+#content{
+    height: 25rem;
+    width: 21.9rem;
+    padding-left: 70px;
+    padding-top:50px;
+    background-color: white;
+    border-radius: 10px;
+}
+#horizontal-line-one{
+    margin-top: 15px;
+    margin-left: 13px;
+    height:2px;
+    width:72px;
+    background-color: silver;
+}
+#horizontal-line-two{
+    margin-top: 15px;
+    height:2px;
+    width:72px;
+    background-color: silver;
+}
+#or{
+    margin-top: 7px;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 15px;
+    color: black;
+    font-family: sans-serif;
+}
+.line{
+    float: left;
+}
+#input-user{
+    margin-top: 10px;
+    width:200px;
+    height: 20px;
+}
+#input-pass{
+    margin-top: 10px;
+    width:200px;
+    height: 20px;
+}
+#login{
+    padding-top: 3px;
+}
+#login-btn{
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(42, 198, 36, 0.804);
+    border: 1px rgba(42, 198, 36, 0.804);
+    height: 25px;
+    width: 200px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+#register-btn{
+    background-color: rgba(42, 198, 36, 0.804);
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px  rgba(42, 198, 36, 0.804);
+    height: 25px;
+    width: 200px;
+}
+#username{
+    padding-bottom: 12px;
+}
+#password{
+    padding-bottom: 15px;
+}
+#usser{
+    padding-right: 20px;
+}
+#psw{
+    padding-right: 25px;
+}
+label{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+#myid{
+    text-decoration: none;
+}
+#register-btn a{
+    font-size: 14px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+#if-not-job-seeker{
+    margin-top: 0.8rem;
+}
+#if-not-job-seeker a{
+    color: rgb(55, 55, 170);
+    font-size: 14px;
+    font-family: sans-serif;
+    text-decoration:0.4px solid underline;
+}
+.information-for-login::placeholder{
+    padding-left: 0.5rem;
+    font-family: sans-serif;
+    border-radius: 1rem;
+}
+.error_msg{
+    color: red;
+}

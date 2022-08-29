@@ -1,0 +1,84 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+#txt-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    font-family: sans-serif;
+    margin-bottom: 2rem;
+    color: #505050;
+}
+#our-services{
+    height: 27rem;
+    background-color: rgba(193, 193, 193, 0.34);
+}
+#service-row{
+    display: flex;
+}
+#first-div{
+    width: 100%;
+    padding-top: 2rem;
+}
+#first-service{
+    height: 15rem;
+    width: 20rem;
+    background-color: #fff;
+    margin:2rem 1rem 1rem 2rem;
+}
+#second-service{
+    height: 15rem;
+    width: 20rem;
+    background-color: #fff;
+    margin:2rem 0rem 1rem 0rem;
+}
+#third-service{
+    height: 15rem;
+    width: 20rem;
+    background-color: #fff;
+    margin:2rem 1rem 1rem 1rem;
+}
+#fourth-service{
+    height: 15rem;
+    width: 20rem;
+    background-color: #fff;
+    margin:2rem 2rem 1rem 0rem;
+}
+.services-icons{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.real-icons{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border:none;
+    background-color: #00aeda;
+    margin-top: -1.9rem;
+}
+.services-icons .fa{
+    color: #fff;
+    font-size: 25px;
+    padding-top: 1rem;
+}
+.service-info{
+    padding: 1.5rem;
+    font-family: sans-serif;
+}
+.service-info h3{
+    color: #505050;
+    padding-top: 0.5rem;
+    font-weight: 500;
+    font-size: 20px;
+}
+.service-info p{
+    margin-top: 1rem;
+    line-height: 1.3rem;
+    color: #505050;
+}
